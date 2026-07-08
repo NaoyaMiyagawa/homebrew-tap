@@ -2,9 +2,7 @@ class GitBranchSweep < Formula
   desc "Classify and delete done local git branches, protecting unpushed spikes"
   homepage "https://github.com/NaoyaMiyagawa/git-branch-sweep"
   url "https://github.com/NaoyaMiyagawa/git-branch-sweep/archive/refs/tags/v0.1.0.tar.gz"
-  # Fill in after tagging v0.1.0:
-  #   curl -fsSL https://github.com/NaoyaMiyagawa/git-branch-sweep/archive/refs/tags/v0.1.0.tar.gz | shasum -a 256
-  sha256 "REPLACE_WITH_TARBALL_SHA256"
+  sha256 "5be1fa94037e3337b22590093265b1dbd54b3508f86bdf269c1b9bd78112c239"
   license "MIT"
 
   depends_on "bash"
